@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Pago con Tarjeta</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div clas="global-container">
+      <div class="container">
+           <div class="formulario">
+            <form class="form-tarjeta"id="formulario-tarjeta">
+                    <label for="numero-tarjeta">Número de la tarjeta</label><br/>
+                    <input type="text" id="numero-tarjeta" max="9999999999999999"/>
+
+                    <label for="nombre-tarjeta">Nombre completo del titular</label><br/>
+                    <input type="text" id="nombre-tarjeta" />
+
+                    <label for="expiracion-tarjeta">Fecha de expiración <i>(MMAA)</i></label><br/>
+                    <input type="text" id="expiracion-tarjeta" min="1" max="9999"/>
+
+                    <label for="cvv-tarjeta">CVV</label><br/>
+                    <input type="text" id="cvv-tarjeta" min="0" max="999"/>
+
+                    <button class="button" type="submit">Enviar</button>
+            </form>
+          </div>
+
+        <div class="card-container">
+          <div class="carta"> 
+                <div class="front">
+                    <div class="numero-tarjeta"></div>
+                    <div class="nombre-tarjeta"></div>
+                    <div class="expiracion-tarjeta"></div>
+                    <div>
+                        <img class="compania" width="100px"/>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="cvv-tarjeta"></div> 
+                </div>
+            </div> 
+        </div>
+    </div> 
+ </div>
+
+<script src="js/script.js"></script> 
+</body>
+</html>
