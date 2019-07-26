@@ -5,4 +5,7 @@ This application implements a simulation of a card payment step. Using Vanilla J
 - Change credit logo company according to the first character introduced at card number
 - Draw the input information in the image while typing
 
+## Built With
+* [Foundation](https://foundation.zurb.com/) - Frontend Framework
+
 # Screens
