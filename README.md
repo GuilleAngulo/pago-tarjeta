@@ -9,3 +9,5 @@ This application implements a simulation of a card payment step. Using Vanilla J
 * [Foundation](https://foundation.zurb.com/) - Frontend Framework
 
 # Screens
+![alt text](https://github.com/GuilleAngulo/pago-tarjeta/blob/master/front-card.png)
+![alt text](https://github.com/GuilleAngulo/pago-tarjeta/blob/master/back-card.png)
