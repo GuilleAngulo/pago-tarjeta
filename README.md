@@ -12,3 +12,6 @@ This application implements a simulation of a card payment step. Using Vanilla J
 
 <img  alt="front-card" src="https://github.com/GuilleAngulo/pago-tarjeta/blob/master/front-card.png"> <img  alt="back-card" src="https://github.com/GuilleAngulo/pago-tarjeta/blob/master/back-card.png">
 
+# Demo
+
+![](https://github.com/GuilleAngulo/pago-tarjeta/blob/master/pago-tarjeta.gif)
